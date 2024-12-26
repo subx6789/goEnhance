@@ -1,75 +1,215 @@
 {
-  "options": [
-    { "name": "Apps", "link": "/" },
-    { "name": "Pricing", "link": "/" },
-    { "name": "Affiliate", "link": "/" },
-    { "name": "Blog", "link": "/" },
-    { "name": "Tools", "link": "/" }
-  ],
-  "button_text": [
-    { "name": "Login", "link": "/" },
-    { "name": "Try GoEnhance for Free", "link": "/" },
-    { "name": "Try Video to Animation", "link": "/" },
-    { "name": "Try Face Swap", "link": "/" },
-    { "name": "Try Character Animation", "link": "/" },
-    { "name": "Try Enhance and Upscale", "link": "/" },
-    { "name": "Get Started", "link": "/" }
-  ],
-  "content": {
-    "hero_title": "Create AI animated short in Minutes",
-    "hero_description": "Your all-in-one AI Video Production Platform: Making Video Creation Simpler Than Ever with GoEnhance AI",
-    "hero_tagline": [
-      "Perfect for Creators, Easy to Use",
-      "Trusted by 5518+ Creators"
+  "navigation": {
+    "menu": [
+      { "name": "Apps", "link": "/" },
+      { "name": "Pricing", "link": "/" },
+      { "name": "Affiliate", "link": "/" },
+      { "name": "Blog", "link": "/" },
+      { "name": "Tools", "link": "/" }
     ],
-    "hero_background_video": "/cover-video.mp4",
-    "features": [
+    "cta_buttons": [
       {
-        "title": "Video to Animation",
-        "description": "Effortlessly transform your videos into animations with our powerful tool. Choose from over 30 stunning styles to create high-resolution animated videos with just one click. Perfect for creators looking to elevate their content, whether it is a short clip or a full-length video.",
-        "video": "/video-to-animation.mp4",
-        "order": true
+        "category": "auth",
+        "buttons": [{ "name": "Login", "link": "/" }]
       },
       {
-        "title": "Video Face Swap",
-        "description": "Instantly swap faces in both videos and images with our advanced AI technology. Our cutting-edge app lets you effortlessly change any face, whether in a video or a photo. Perfect for content creators or casual users, our editor offers seamless transformations.",
-        "video": "/video-face-swap.mp4",
-        "order": false
+        "category": "product",
+        "buttons": [
+          { "name": "Try GoEnhance for Free", "link": "/" },
+          { "name": "Get Started", "link": "/" },
+          { "name": "Start Creating Now", "link": "/" }
+        ]
       },
       {
-        "title": "Character Animation",
-        "description": "Unleash the power of Character Animation with our AI tool! Transform static images into dynamic anime characters with just one click. Bring your favorite or the hottest anime characters to life effortlessly.",
-        "video": "/character-animation.mp4",
-        "order": true
+        "category": "features",
+        "buttons": [
+          { "name": "Try Video to Animation", "link": "/" },
+          { "name": "Try Face Swap", "link": "/" },
+          { "name": "Try Character Animation", "link": "/" },
+          { "name": "Try Enhance and Upscale", "link": "/" }
+        ]
       },
       {
-        "title": "Enhance and Upscale Image",
-        "description": "Elevate your visuals with our cutting-edge AI image enhancer. Transform low-res photos into stunning high-definition masterpieces using our advanced 4K image upscaler. Our AI-powered tool doesn't just enhance image quality - it reveals extreme details you never knew existed.",
-        "video": "",
-        "order": false
+        "category": "sales",
+        "buttons": [
+          { "name": "Buy Now", "link": "/" },
+          { "name": "Contact Sales", "link": "/" }
+        ]
       }
-    ],
-    "steps": {
+    ]
+  },
+  "sections": {
+    "hero": {
+      "title": "Create AI animated short in Minutes",
+      "description": "Your all-in-one AI Video Production Platform: Making Video Creation Simpler Than Ever with GoEnhance AI",
+      "tags": [
+        "Perfect for Creators, Easy to Use",
+        "Trusted by 5518+ Creators"
+      ],
+      "media": {
+        "background_video": "/cover-video.mp4"
+      }
+    },
+    "features": {
+      "list": [
+        {
+          "id": "video-animation",
+          "title": "Video to Animation",
+          "description": "Effortlessly transform your videos into animations with our powerful tool. Choose from over 30 stunning styles to create high-resolution animated videos with just one click. Perfect for creators looking to elevate their content, whether it is a short clip or a full-length video.",
+          "media": {
+            "video": "/video-to-animation.mp4"
+          },
+          "layout": {
+            "imagePosition": "right"
+          }
+        },
+        {
+          "id": "face-swap",
+          "title": "Video Face Swap",
+          "description": "Instantly swap faces in both videos and images with our advanced AI technology. Our cutting-edge app lets you effortlessly change any face, whether in a video or a photo. Perfect for content creators or casual users, our editor offers seamless transformations.",
+          "media": {
+            "video": "/video-face-swap.mp4"
+          },
+          "layout": {
+            "imagePosition": "left"
+          }
+        },
+        {
+          "id": "character-animation",
+          "title": "Character Animation",
+          "description": "Unleash the power of Character Animation with our AI tool! Transform static images into dynamic anime characters with just one click. Bring your favorite or the hottest anime characters to life effortlessly.",
+          "media": {
+            "video": "/character-animation.mp4"
+          },
+          "layout": {
+            "imagePosition": "right"
+          }
+        },
+        {
+          "id": "enhance-upscale",
+          "title": "Enhance and Upscale Image",
+          "description": "Elevate your visuals with our cutting-edge AI image enhancer. Transform low-res photos into stunning high-definition masterpieces using our advanced 4K image upscaler. Our AI-powered tool doesn't just enhance image quality - it reveals extreme details you never knew existed.",
+          "media": {
+            "video": ""
+          },
+          "layout": {
+            "imagePosition": "left"
+          }
+        }
+      ]
+    },
+    "how_it_works": {
       "title": "How it Works",
       "description": "Transform your content with our simple and powerful AI tools in just a few steps",
-      "step": [
+      "steps": [
         {
-          "number": 1,
+          "step_number": 1,
           "title": "Upload Content",
           "description": "Simply upload your video, image, or select your desired input type. Our platform supports various formats for maximum flexibility."
         },
         {
-          "number": 2,
+          "step_number": 2,
           "title": "Choose Style",
           "description": "Select from our wide range of AI-powered enhancement options and creative styles to transform your content."
         },
         {
-          "number": 3,
+          "step_number": 3,
           "title": "Download Result",
           "description": "Our AI processes your content quickly. Download your enhanced creation and share it with the world."
         }
       ],
-      "tag_line": "No credit card required · Free to try"
+      "footer": {
+        "tag_line": "No credit card required · Free to try"
+      }
+    },
+    "use_cases": {
+      "title": "Perfect for Every Creator",
+      "description": "Discover how different creators are using GoEnhance AI to transform their content",
+      "categories": [
+        {
+          "id": "1",
+          "title": "Social Media Creators",
+          "benefits": [
+            "Create viral content",
+            "Transform regular videos into animations",
+            "Stand out from competitors"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Content Creators",
+          "benefits": [
+            "Enhance video quality",
+            "Create unique animations",
+            "Boost engagement"
+          ]
+        },
+        {
+          "id": "3",
+          "title": "Digital Artists",
+          "benefits": [
+            "Enhance artwork",
+            "Create animated versions",
+            "Expand creative possibilities"
+          ]
+        }
+      ],
+      "footer": {
+        "tag_line": "Join thousands of creators using GoEnhance AI"
+      }
+    },
+    "pricing": {
+      "title": "Simple, Transparent Pricing",
+      "description": "Choose the perfect plan for your creative needs",
+      "plans": [
+        {
+          "id": "basic",
+          "title": "Basic",
+          "price": {
+            "amount": "19",
+            "currency": "$",
+            "period": "month"
+          },
+          "features": [
+            "Generate up to 10 AI videos per month",
+            "720p HD video quality",
+            "Basic editing tools",
+            "Email support"
+          ]
+        },
+        {
+          "id": "pro",
+          "title": "Pro",
+          "price": {
+            "amount": "49",
+            "currency": "$",
+            "period": "month"
+          },
+          "features": [
+            "Everything in Basic",
+            "Unlimited AI video generations",
+            "4K Ultra HD video quality",
+            "Advanced editing suite",
+            "Priority email support"
+          ]
+        },
+        {
+          "id": "enterprise",
+          "title": "Enterprise",
+          "price": {
+            "amount": "119",
+            "currency": "$",
+            "period": "month"
+          },
+          "features": [
+            "Everything in Pro",
+            "Custom AI model training for your brand",
+            "8K UHD video quality",
+            "Full API access for integration",
+            "Dedicated account manager and priority support"
+          ]
+        }
+      ]
     }
   }
 }

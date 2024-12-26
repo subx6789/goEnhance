@@ -9,7 +9,7 @@ type FeaturesProps = {
   video: string;
   button_text: string;
   button_link: string;
-  order: boolean;
+  order: string;
 };
 
 const Features = ({
@@ -26,14 +26,14 @@ const Features = ({
         <div
           className={clsx(
             "text-center lg:text-left",
-            order !== true && "lg:order-2"
+            order !== "left" && "lg:order-2"
           )}
         >
           <h1 className="text-3xl sm:text-4xl font-bold mb-6">{title}</h1>
           <p className="text-neutral-400 text-lg mb-8">{description}</p>
           <Button text={button_text} link={button_link} />
         </div>
-        <div className="relative rounded-md overflow-hidden">
+        <div className="relative rounded-xl overflow-hidden">
           {video !== "" ? (
             <video
               autoPlay
