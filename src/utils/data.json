@@ -1,0 +1,75 @@
+{
+  "options": [
+    { "name": "Apps", "link": "/" },
+    { "name": "Pricing", "link": "/" },
+    { "name": "Affiliate", "link": "/" },
+    { "name": "Blog", "link": "/" },
+    { "name": "Tools", "link": "/" }
+  ],
+  "button_text": [
+    { "name": "Login", "link": "/" },
+    { "name": "Try GoEnhance for Free", "link": "/" },
+    { "name": "Try Video to Animation", "link": "/" },
+    { "name": "Try Face Swap", "link": "/" },
+    { "name": "Try Character Animation", "link": "/" },
+    { "name": "Try Enhance and Upscale", "link": "/" },
+    { "name": "Get Started", "link": "/" }
+  ],
+  "content": {
+    "hero_title": "Create AI animated short in Minutes",
+    "hero_description": "Your all-in-one AI Video Production Platform: Making Video Creation Simpler Than Ever with GoEnhance AI",
+    "hero_tagline": [
+      "Perfect for Creators, Easy to Use",
+      "Trusted by 5518+ Creators"
+    ],
+    "hero_background_video": "/cover-video.mp4",
+    "features": [
+      {
+        "title": "Video to Animation",
+        "description": "Effortlessly transform your videos into animations with our powerful tool. Choose from over 30 stunning styles to create high-resolution animated videos with just one click. Perfect for creators looking to elevate their content, whether it is a short clip or a full-length video.",
+        "video": "/video-to-animation.mp4",
+        "order": true
+      },
+      {
+        "title": "Video Face Swap",
+        "description": "Instantly swap faces in both videos and images with our advanced AI technology. Our cutting-edge app lets you effortlessly change any face, whether in a video or a photo. Perfect for content creators or casual users, our editor offers seamless transformations.",
+        "video": "/video-face-swap.mp4",
+        "order": false
+      },
+      {
+        "title": "Character Animation",
+        "description": "Unleash the power of Character Animation with our AI tool! Transform static images into dynamic anime characters with just one click. Bring your favorite or the hottest anime characters to life effortlessly.",
+        "video": "/character-animation.mp4",
+        "order": true
+      },
+      {
+        "title": "Enhance and Upscale Image",
+        "description": "Elevate your visuals with our cutting-edge AI image enhancer. Transform low-res photos into stunning high-definition masterpieces using our advanced 4K image upscaler. Our AI-powered tool doesn't just enhance image quality - it reveals extreme details you never knew existed.",
+        "video": "",
+        "order": false
+      }
+    ],
+    "steps": {
+      "title": "How it Works",
+      "description": "Transform your content with our simple and powerful AI tools in just a few steps",
+      "step": [
+        {
+          "number": 1,
+          "title": "Upload Content",
+          "description": "Simply upload your video, image, or select your desired input type. Our platform supports various formats for maximum flexibility."
+        },
+        {
+          "number": 2,
+          "title": "Choose Style",
+          "description": "Select from our wide range of AI-powered enhancement options and creative styles to transform your content."
+        },
+        {
+          "number": 3,
+          "title": "Download Result",
+          "description": "Our AI processes your content quickly. Download your enhanced creation and share it with the world."
+        }
+      ],
+      "tag_line": "No credit card required · Free to try"
+    }
+  }
+}
