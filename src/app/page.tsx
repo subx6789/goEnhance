@@ -5,6 +5,8 @@ import data from "../utils/data.json";
 import Steps from "@/components/Steps";
 import UseCases from "@/components/UseCases";
 import Pricing from "@/components/Pricing";
+import Testimonials from "@/components/Testimonials";
+import BigCta from "@/components/BigCta";
 
 export default function Home() {
   return (
@@ -46,6 +48,8 @@ export default function Home() {
       <Steps />
       <UseCases />
       <Pricing />
+      <Testimonials />
+      <BigCta />
     </main>
   );
 }

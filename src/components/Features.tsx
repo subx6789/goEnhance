@@ -26,7 +26,7 @@ const Features = ({
         <div
           className={clsx(
             "text-center lg:text-left",
-            order !== "left" && "lg:order-2"
+            order !== "right" && "lg:order-2"
           )}
         >
           <h1 className="text-3xl sm:text-4xl font-bold mb-6">{title}</h1>

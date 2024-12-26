@@ -35,6 +35,28 @@
           { "name": "Buy Now", "link": "/" },
           { "name": "Contact Sales", "link": "/" }
         ]
+      },
+      {
+        "category": "testimonials",
+        "buttons": [
+          {
+            "name": "Join Our Community",
+            "link": "/"
+          }
+        ]
+      },
+      {
+        "category": "bigCta",
+        "buttons": [
+          {
+            "name": "Start Free Trail",
+            "link": "/"
+          },
+          {
+            "name": "Watch Demo",
+            "link": "/"
+          }
+        ]
       }
     ]
   },
@@ -210,6 +232,50 @@
           ]
         }
       ]
+    },
+    "testimonials": {
+      "title": "What Our Users Say",
+      "description": "Join thousands of satisfied creators who've transformed their content with GoEnhance AI",
+      "feedbacks": [
+        {
+          "avatar": 0,
+          "user-id": "@itsavamoreno",
+          "profession": "Tiktok Creator",
+          "ratings": 5,
+          "comment": "GoEnhance AI has completely transformed my content creation process. The video animations are stunning and my engagement has skyrocketed!"
+        },
+        {
+          "avatar": 1,
+          "user-id": "@officialrhea",
+          "profession": "Youtuber",
+          "ratings": 5,
+          "comment": "The quality of AI-generated animations is incredible. It's become an essential tool for my YouTube content creation workflow."
+        },
+        {
+          "avatar": 2,
+          "user-id": "@relisan",
+          "profession": "Reels Creator",
+          "ratings": 5,
+          "comment": "The face swap and character animation features are game-changing. My artwork has never looked more dynamic and engaging!"
+        }
+      ],
+      "stats": [
+        {
+          "number": "5518+",
+          "title": "Active Users"
+        },
+        { "number": "4.9/5", "title": "Average Rating" },
+        {
+          "number": "1M+",
+          "title": "Videos Created"
+        }
+      ],
+      "tag_line": "Start creating amazing content today"
+    },
+    "big_cta": {
+      "title": "Transform Your Content Today",
+      "description": "Join 5518+ creators who are already using GoEnhance AI to create stunning animated content. Start your journey now with our 14-day free trial.",
+      "tag_line": "No credit card required · Cancel anytime · 24/7 support"
     }
   }
 }
