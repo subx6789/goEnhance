@@ -5,7 +5,7 @@ import Tick from "./Tick";
 
 const UseCases = () => {
   return (
-    <section className="bg-neutral-900 py-24">
+    <section className="bg-neutral-900 md:py-24 py-16">
       <div className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
@@ -44,6 +44,7 @@ const UseCases = () => {
         </div>
         <div className="mt-16 text-center">
           <Button
+            className="py-3"
             text={data.navigation.cta_buttons[1].buttons[2].name}
             link={data.navigation.cta_buttons[1].buttons[2].name}
           />

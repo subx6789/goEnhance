@@ -21,7 +21,7 @@ const Features = ({
   order,
 }: FeaturesProps) => {
   return (
-    <section className="bg-neutral-900 py-24">
+    <section className="bg-neutral-900 md:py-24 py-16">
       <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center h-full px-4 max-w-7xl sm:px-6 lg:px-8 text-white">
         <div
           className={clsx(
@@ -31,7 +31,7 @@ const Features = ({
         >
           <h1 className="text-3xl sm:text-4xl font-bold mb-6">{title}</h1>
           <p className="text-neutral-400 text-lg mb-8">{description}</p>
-          <Button text={button_text} link={button_link} />
+          <Button className="py-3" text={button_text} link={button_link} />
         </div>
         <div className="relative rounded-xl overflow-hidden">
           {video !== "" ? (

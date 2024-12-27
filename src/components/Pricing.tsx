@@ -2,10 +2,11 @@ import React from "react";
 import data from "../utils/data.json";
 import Tick from "./Tick";
 import Button from "./Button";
+import clsx from "clsx";
 
 const Pricing = () => {
   return (
-    <section className="bg-neutral-900 relative overflow-hidden py-24">
+    <section className="bg-neutral-900 relative overflow-hidden md:py-24 py-16">
       <div className="absolute inset-0">
         <div className="absolute top-0 -right-40 w-96 h-96 bg-[#e05599] rounded-full opacity-10 blur-3xl animate-pulse" />
         <div className="absolute bottom-0 -left-40 w-96 h-96 bg-[#e05599] rounded-full opacity-10 blur-3xl animate-pulse" />
@@ -72,7 +73,10 @@ const Pricing = () => {
                       ? `${data.navigation.cta_buttons[3].buttons[1].link}`
                       : `${data.navigation.cta_buttons[3].buttons[0].link}`
                   }
-                  className={"w-full"}
+                  className={clsx(
+                    "w-full py-3",
+                    index === 2 && "bg-neutral-700"
+                  )}
                 />
               </div>
             </div>

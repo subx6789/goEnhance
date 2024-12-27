@@ -31,8 +31,8 @@ const Navbar = () => {
   return (
     <nav
       className={clsx(
-        "fixed top-0 inset-x-0 z-50 bg-neutral-800/30 backdrop-blur-sm border-b border-neutral-700/5 w-full h-16 rounded-b-xl",
-        isOpen && "bg-neutral-900 rounded-b-none"
+        "fixed top-0 inset-x-0 z-50 bg-neutral-800/30 backdrop-blur-sm border-b border-neutral-700/5 w-full h-16 transition-all duration-300",
+        isOpen && "bg-neutral-900"
       )}
     >
       <div className="container m-auto flex items-center justify-between h-full max-w-7xl px-4 md:px-6 lg:px-8">
@@ -61,6 +61,7 @@ const Navbar = () => {
             ))}
             <li>
               <Button
+                className="py-2"
                 link={data.navigation.cta_buttons[0].buttons[0].link}
                 text={data.navigation.cta_buttons[0].buttons[0].name}
               />
@@ -91,7 +92,7 @@ const Navbar = () => {
                     key={index}
                     href={option.link}
                     className="w-full h-full cursor-pointer hover:bg-neutral-700 
-                  rounded-xl text-center py-3 transition-colors duration-300"
+                  rounded-xl text-center py-2 transition-colors duration-300"
                     onClick={() => setIsOpen(false)}
                   >
                     <p className="text-gray-300 hover:text-white text-lg">
@@ -100,7 +101,7 @@ const Navbar = () => {
                   </Link>
                 ))}
                 <Button
-                  className="w-full text-center"
+                  className="w-full text-center py-2"
                   link={data.navigation.cta_buttons[0].buttons[0].link}
                   text={data.navigation.cta_buttons[0].buttons[0].name}
                 />

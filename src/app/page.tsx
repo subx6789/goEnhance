@@ -7,6 +7,7 @@ import UseCases from "@/components/UseCases";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import BigCta from "@/components/BigCta";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -50,6 +51,7 @@ export default function Home() {
       <Pricing />
       <Testimonials />
       <BigCta />
+      <Footer />
     </main>
   );
 }

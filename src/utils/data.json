@@ -62,7 +62,7 @@
   },
   "sections": {
     "hero": {
-      "title": "Create AI animated short in Minutes",
+      "title": "Create AI animated shorts in Minutes",
       "description": "Your all-in-one AI Video Production Platform: Making Video Creation Simpler Than Ever with GoEnhance AI",
       "tags": [
         "Perfect for Creators, Easy to Use",
@@ -248,14 +248,14 @@
           "avatar": 1,
           "user-id": "@officialrhea",
           "profession": "Youtuber",
-          "ratings": 5,
+          "ratings": 4.5,
           "comment": "The quality of AI-generated animations is incredible. It's become an essential tool for my YouTube content creation workflow."
         },
         {
           "avatar": 2,
           "user-id": "@relisan",
           "profession": "Reels Creator",
-          "ratings": 5,
+          "ratings": 4.2,
           "comment": "The face swap and character animation features are game-changing. My artwork has never looked more dynamic and engaging!"
         }
       ],
@@ -276,6 +276,99 @@
       "title": "Transform Your Content Today",
       "description": "Join 5518+ creators who are already using GoEnhance AI to create stunning animated content. Start your journey now with our 14-day free trial.",
       "tag_line": "No credit card required · Cancel anytime · 24/7 support"
+    },
+    "footer": {
+      "tag_line": "AI Video & Image Art Tool For Human Imagination",
+      "products": {
+        "title": "PRODUCT",
+        "links": [
+          { "name": "Video to Video", "link": "/" },
+          { "name": "Video Face Swap", "link": "/" },
+          { "name": "Text to Image", "link": "/" },
+          { "name": "AI Video Generator", "link": "/" },
+          { "name": "AI Character Animation", "link": "/" },
+          { "name": "Image Enhancer", "link": "/" }
+        ]
+      },
+      "resources": {
+        "title": "RESOURCES",
+        "links": [
+          {
+            "name": "Blog",
+            "link": "/"
+          },
+          {
+            "name": "Tools",
+            "link": "/"
+          },
+          {
+            "name": "Affiliate",
+            "link": "/"
+          },
+          {
+            "name": "Tutorials",
+            "link": "/"
+          },
+          {
+            "name": "FAQ",
+            "link": "/"
+          }
+        ]
+      },
+      "connect": {
+        "title": "CONNECT",
+        "links": [
+          {
+            "name": "X",
+            "link": "/",
+            "icon": "https://cdn.goenhance.ai/images/static/sites/x2.svg"
+          },
+          {
+            "name": "Youtube",
+            "link": "/",
+            "icon": "https://cdn.goenhance.ai/images/static/sites/youtube2.svg"
+          },
+          {
+            "name": "Instagram",
+            "link": "/",
+            "icon": "https://cdn.goenhance.ai/images/static/sites/instagram.svg"
+          },
+          {
+            "name": "Facebook",
+            "link": "/",
+            "icon": "https://cdn.goenhance.ai/images/static/sites/facebook.svg"
+          }
+        ]
+      },
+      "rights": "Copyright © 2024 Subhajit Sarkar",
+      "policies": [
+        {
+          "name": "Terms",
+          "link": "/"
+        },
+        {
+          "name": "Privacy",
+          "link": "/"
+        }
+      ],
+      "languages": [
+        {
+          "name": "English",
+          "value": "en"
+        },
+        {
+          "name": "中文",
+          "value": "zh"
+        },
+        {
+          "name": "日本語",
+          "value": "ja"
+        },
+        {
+          "name": "한국어",
+          "value": "ko"
+        }
+      ]
     }
   }
 }

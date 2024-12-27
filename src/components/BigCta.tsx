@@ -6,7 +6,7 @@ import VideoIcon from "./VideoIcon";
 
 const BigCta = () => {
   return (
-    <section className="bg-neutral-900 py-24 relative overflow-hidden">
+    <section className="bg-neutral-900 md:py-24 py-16 relative overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute top-0 -right-40 w-96 h-96 bg-[#e05599] rounded-full opacity-10 blur-3xl animate-pulse" />
         <div className="absolute bottom-0 -left-40 w-96 h-96 bg-[#e05599] rounded-full opacity-10 blur-3xl animate-pulse" />
@@ -25,7 +25,7 @@ const BigCta = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <Link
                 href={"/"}
-                className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-xl text-neutral-900 bg-[#e05599] hover:bg-[#e05599]/90 transition-all duration-300"
+                className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-xl text-white bg-[#e05599] hover:bg-[#e05599]/90 transition-all duration-300"
               >
                 {data.navigation.cta_buttons[5].buttons[0].name} <Arrow />{" "}
               </Link>

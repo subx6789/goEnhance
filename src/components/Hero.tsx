@@ -27,6 +27,7 @@ const Hero = () => {
           {data.sections.hero.description}
         </p>
         <Button
+          className="py-3"
           text={data.navigation.cta_buttons[1].buttons[0].name}
           link={data.navigation.cta_buttons[1].buttons[0].link}
         />

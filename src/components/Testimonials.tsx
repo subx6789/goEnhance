@@ -11,7 +11,7 @@ const avatars = [Avatar1, Avatar2, Avatar3];
 
 const Testimonials = () => {
   return (
-    <section className="bg-neutral-800 py-24">
+    <section className="bg-neutral-800 md:py-24 py-16">
       <div className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
@@ -86,6 +86,7 @@ const Testimonials = () => {
 
         <div className="mt-16 text-center">
           <Button
+            className="py-3"
             text={data.navigation.cta_buttons[4].buttons[0].name}
             link={data.navigation.cta_buttons[4].buttons[0].link}
           />
